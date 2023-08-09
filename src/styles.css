@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c9c9ca79; /* Light gray background */
+}
+
+.portfolio {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ddb8f9; /* White background */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.basic-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.basic-info h1 {
+  font-size: 3rem; /* Increased font size */
+  margin: 0;
+  color: #ffffff; /* White text color */
+  background-color: #350c5e; /* Dark purple background */
+  padding: 10px 20px; /* Increase padding horizontally */
+  border-radius: 12px; /* Slightly rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition effects */
+}
+
+.basic-info h1:hover {
+  background-color: #f1a602; /* Change background color on hover */
+  color: #350c5e; /* Change text color on hover */
+}
+.basic-info h2 {
+  font-size: 1.8rem; /* Increased font size */
+  margin-top: 0;
+  color: #ffffff; /* White text color */
+  background-color: #8743cb; /* Dark purple background */
+  padding: 10px 15px; /* Adjusted padding */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition effects */
+}
+
+.basic-info h2:hover {
+  background-color: #f1a602; /* Change background color on hover */
+  color: #350c5e; /* Change text color on hover */
+}
+
+.basic-info p {
+  font-size: 1.1rem;
+  color: #580875; /* Dark gray text color */
+  margin-top: 20px; /* Add some spacing at the top */
+  text-align: center; /* Center-align the text */
+  max-width: 600px; /* Limit the width of the paragraph */
+  margin-left: auto; /* Center the container on wider screens */
+  margin-right: auto; /* Center the container on wider screens */
+  padding: 15px; /* Add padding to the paragraph */
+  background-color: #ffffff; /* White background for the text */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.work {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 8px;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+}
+  .project h3 {
+    font-size: 1.4rem;
+    margin-top: 0;
+    color: #333333; /* Dark gray text */
+  }
+
+  .tech-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tech-list ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .resource {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resource h3 {
+    font-size: 1.4rem;
+    margin-top: 0;
+    color: #333333; /* Dark gray text */
+  }
+
+  .resource img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 10px;
+  }
+
+  /* Additional styling for navigation bar */
+  .navbar {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .portfolio {
+      padding: 15px;
+    }
+  }
+  .content-container {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Add padding to create spacing around the content */
+    margin-bottom: 20px; /* Add margin at the bottom to create spacing between containers */
+  }
+
+  .skills-container,
+  .languages-container,
+  .tools-container,
+  .resources-container {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Add padding to create spacing around the content */
+    margin-bottom: 20px; /* Add margin at the bottom to create spacing between containers */
+  }
